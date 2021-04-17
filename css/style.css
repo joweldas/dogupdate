@@ -1,0 +1,599 @@
+*{margin: 0;
+padding: 0}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*font-family: 'Poppins', sans-serif;*/
+
+h1,h2,h3,h4,h5,h6,p,span{
+	font-family: 'Poppins', sans-serif;
+}
+
+/*--------------- BANNER SECTION FROM HERE*/
+header{
+	position: absolute;
+	width: 100%;
+   background-color: rgba(0,0,0,0.2);
+}
+
+.nav-link{
+	color: white !important;
+	font-size: 24px;
+}
+.form-control{
+	background-color: #fcc302;
+	border: none;
+	padding: 10px 4px;
+
+}
+.input-group-text {
+	    background-color: #00bec9;
+	        font-size: 1.5rem;
+	        color: white;
+	        border: none;
+
+}
+
+
+.nav-item{
+	padding: 0 15px;
+}
+.banner{
+	background-color: #fcc302;
+	width: 100%;
+	padding: 120px 0
+}
+
+.banner h1{
+	font-size: 64px;
+    font-weight: 600;
+    color: white;
+    margin: 42px 0;
+}
+
+.banner p{
+	font-size: 29px;
+	color: white;
+	padding: 20px 0;
+}
+.banner .btn-primary{
+	    color: #fff;
+    background-color: #00bec9;
+    border-color: #00bec9;
+}
+.banner .btn-light{
+	    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-left: 20px;
+}
+/*...................... BANNER SECTION End HERE*/
+
+
+/*sevice css start*/
+.service-1{ padding:60px 0; }
+.service-1 h1{
+	font-size: 64px;
+    font-weight: 600;
+    color:black;
+    margin: 42px 0;
+}
+.service-1 p{
+	font-size: 29px;
+	color: black;
+	padding: 20px 0;
+
+}
+
+.btn-danger{
+	background-color: #fcc302 !important;
+	border: none;
+
+}
+.btn-danger:hover {
+    color: #fff;
+    background-color: #fcc302;
+    border-color: #fcc302;
+}
+.service-video{
+	position: relative;
+}
+.shadow{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: rgba(252,195,2,.3);
+
+}
+.box{
+    height: 170px;
+    width: 170px;
+    background: #fcc302;
+    position: absolute;
+    bottom: -15px;
+    left: -17px;   
+    z-index: -2;
+}
+
+.box-2{
+	 height: 170px;
+    width: 170px;
+    background: #fcc302;
+    position: absolute;
+    right: -21px;
+    bottom: -19px;
+    z-index: -2;
+}
+
+.video-icon i{
+	height: 60px;
+    width: 60px;
+    background-color: #fcc302;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 100%;
+    color: white;
+	}
+/*service end here */
+
+/*chekout start*/
+
+.doc-1 img{ 
+	 
+}
+
+.doc-1 img:hover{
+
+}
+
+
+
+.checkout{
+	background-color:#fcc302;
+	padding: 40px 0;
+
+}
+.check-banner{
+	padding: 20px 0;
+}
+.check-banner h1{
+	padding-bottom: 20px;
+	color: white;
+	font-weight: 800;
+	font-size: 48px;
+	text-align: center;
+}
+
+.check-banner p{
+	text-align: center;
+    color: white;
+    font-size: 19px;
+    padding-bottom: 50px;
+}
+
+.doc-1 h4 , .doc-3 h4{
+    padding-top: 25px;
+        padding-left: 19%;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.doc-2 h4{
+    padding-top: 25px;
+    padding-left: 14%;
+    color: white;
+    font-size: 30px;
+    
+}
+.doc-1 p, .doc-2 p, .doc-3 p{
+	padding-bottom: 0px;
+	padding-top: 20px;
+	padding-right: 84px;
+}
+
+/*==========================
+=========================
+CHECK OUT END
+====================
+==========================*/
+.video-2{
+	padding: 60px 0;
+}
+.airdoc-video{position: relative;}
+.shadow-2{
+	position: absolute;
+	background-color: rgba(252,195,2,.3);
+	top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+.video-icon-2{
+	position: absolute;
+    top: 40%;
+    left: 40%;
+    color: white;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 100%;
+    transform: rotate(178deg);
+    font-size: 18px;
+    background: #fcc302;
+}
+.service-2{
+	padding-top: 60px;
+	padding-left: 67px;
+
+}
+
+.video-2 h6{
+	    font-size: 46.86px;;
+	color: #313243;
+	font-weight: 700;
+}
+.wer{
+	padding-left: 24%;
+}
+.video-2 p{
+	font-size: 24px;
+	color: #313243;
+	   /* padding: 22px 0;*/
+	   padding-top: 22px;
+	    padding-left: 10%;
+    font-weight: 700;
+}
+.pad-1{
+padding-left: 4%;
+}
+.pad-2{
+	    padding-left: 24.5%;
+	}
+
+
+.button-ex .btn-danger{
+    position: absolute;
+    left: 73%;
+}
+/*---------------------------------------------
+------------------------------------
+--------------------------
+-------------------*/
+/*TITLE FROM HHERE*/
+
+.shop{
+	background-color: #fcc302;
+	padding: 60px 0;
+}
+.shop-name h1{
+	    color: white;
+    font-size: 68px;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+}
+
+.shop-name p{
+	    color: white;
+    font-size: 19px;
+    text-align: center;
+        padding-top: 20px;
+    padding-bottom: 30px;
+}
+.category h5{
+	     font-size: 30px;
+    color: white;
+  
+    padding-left: 79px;
+}
+.price ul li{list-style: none;
+display: inline-block;
+    color: white;
+    font-size: 39px;
+    font-weight: 700;
+    /*padding-left: 28%;*/}
+
+  
+.price ul li h4{
+	font-size: 40px;
+	padding-top: 10px;
+	padding-left: 1em;
+}
+.price ul li h4{
+	text-decoration: line-through;
+}
+.price ul li .text-2{
+	text-decoration:none !important;
+}
+.btn-info{
+	    border-radius: 20%;
+    padding: 7px 28px;
+    position: absolute;
+    left: 12%;
+    font-size: 18px;
+   
+    color: white;}
+
+.infobtn{
+	    border-radius: 180px;
+    padding: 7px 28px;
+    /* position: absolute; */
+    left: 12%;
+    font-size: 17px;
+    margin-left: 21%;
+    color: white;
+    background-color: #00bec9;
+}
+    /*------------------------------------
+    -----------------------title bar end*/
+    .vetcare-team{
+    	padding: 60px 0;
+    	background-color: white;
+    }
+    .vetcare-head h1{
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 20px;
+    }
+.vetcare-head p{
+	    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.meet-vetcare h5{
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: 23px;
+    padding-left: 56px;
+}
+.p60{
+	padding-left: 90px !important;
+}
+.P50{
+	padding-left: 90px !important; 
+}
+.meet-vetcare p{
+	    font-weight: 600;
+    padding-left: 108px;
+}
+.p70{
+	 padding-left: 130px !important;
+
+}
+.meet-vetcare .li20{
+	padding-left: 5.5em;
+}
+.meet-vetcare .li30{
+	padding-left: 6.8em;*/
+}
+.meet-vetcare .li40{
+	padding-left: 7.1em;
+}
+.meet-vetcare ul li {
+	list-style: none;
+	display: inline-block;
+	/*background-color: red;*/
+	border-radius: 100%;
+
+}
+.meet-vetcare ul li a{
+	color: white;
+	/*background-color: yellow;*/
+letter-spacing: 25px;
+font-size: 22px;
+
+text-align: center;
+
+
+
+	/*background-color: #fcc302;*/ 
+	
+}
+.meet-vetcare ul li a i{
+		height: 33px;
+		width: 30px;
+		background-color: #daac00;
+		/*border: 2px solid blue;*/
+		border-radius: 100px;
+		line-height: 35px;
+		padding-left: 6.5px;
+
+
+}
+/*.....................................
+.......................................
+...............................................*/
+.history{
+	background-image: url(../img/backdog.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 500px;
+   position: relative;
+  }
+
+  .overlay{
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  	background-color:rgba(255,177,16,.7);
+  }
+
+  .aboutus{
+  	padding: 160px 0;
+    text-align: center;
+  }
+
+  .aboutus a i{
+  	color: white;
+  	font-size: 80px;
+  	padding-bottom: 20px;
+  }
+  .aboutus h5{
+  	color: white;
+  	font-weight: 700;
+  	padding-top: 10px;
+  	font-size: 30px;
+  }
+  /*..........................
+  \..................................
+  .....RECENT CSS FROM HERE................*/
+  .recent-post{
+  	padding:60px 0;
+  }
+  .recent h1{
+  	    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 54px;
+  }
+
+  .recent p{
+  	text-align: center;
+    font-size: 22px;
+    color: #313243;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .background h4{
+  	    font-size: 26px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-weight: 700;
+        text-align: center
+  }
+  .background h5{
+  	    color: #00bec9;
+    /* padding-top: 0px; */
+    font-weight: 700;
+    font-size: 17px;
+        padding-left: 10px;
+  }
+
+  .background p {
+    font-size: 21px;
+        padding: 0 10px;
+
+  }
+    .background h6 a{    font-size: 17px;
+    color: #00bec9;
+    font-weight: 700;
+        padding-left: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+
+    }
+    .background{
+    	box-shadow: 1px -1px 10px 2px;
+    width: 362px;
+        padding-bottom: 10px;
+    }
+.background:hover{
+	transform: scale(1.1);
+}
+    /*..........................
+  \..................................
+  .....RECENT CSS end HERE................*/
+
+
+  /*--------LASTBANNER CSS----------*/
+
+
+.lastbanner{
+	background-color: black;
+	padding: 60px 0;
+}
+.position{
+	padding: 40px 20px;
+}
+.list-1 h3{
+	    color: white;
+    font-weight: 700;
+    padding-bottom: 15px;
+    padding-bottom: 15px;
+    padding-left: 31px;
+}
+
+.list-1 ul li {
+	list-style: none;
+	margin-top: 10px;
+}
+
+.list-1 ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 22px;
+    margin-top: 14px;
+}
+
+.list-2 h3{
+	color: white;
+    font-weight: 700;
+    text-align: right;
+}
+
+.list-2 p{
+	color: white;
+    font-size: 20px;
+    text-align: right;
+}
+.list-2 .form-contrl{
+
+}
+.mailbox{
+	    position: absolute;
+    right: 190px;
+    height: 68px;
+    width: 350px;
+    /* color: #daac00; */
+    background-color: #daac00;
+}
+.type button{
+	    position: absolute;
+    right: 85px;
+    height: 68px;
+    width: 105px;
+    font-size: 30px;
+    background-color: #00bec9;
+   margin-top: .45px;
+}
+.type button a i{
+	color: white;
+}
+
+
+
+  /*-------------LASTBANNER CSS END---------*/
+.lasticon ul li {list-style: none;
+	display: inline-block;
+	margin-top: 6em;
+	margin-left: 5px;
+	color: white;
+	
+	/*position: absolute;
+	top: 382em;
+	right: 20em;*/
+
+}
+.lasticon ul {
+margin-left: 21em;}
+.lasticon ul li a i{
+	color: white;
+	background-color: blue;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 40%;
+}
